@@ -16,8 +16,6 @@ After refactoring, I checked the Spring Boot startup output to confirm that the 
 This project gave me experience with Java, Spring Boot, Maven, OWASP Dependency-Check, Java MessageDigest, keytool, TLS configuration, and environment variables. I would carry forward the practice of making focused changes, checking application behavior afterward, and documenting unresolved risks.
 7. What I would show future employers
 I would share my completed Artemis Financial Practices for Secure Software Report as evidence that I can assess software risks, implement security controls, and explain the results of testing. I could also discuss the Java changes and how I distinguished a working application from one with outstanding security findings.
-Portfolio Artifact
-Artemis Financial Practices for Secure Software Report (Project Two)
-Upload the completed report to this repository and replace this sentence with a relative Markdown link to the file, for example: [View the report](Artemis_Financial_Practices_for_Secure_Software_Report.docx) if that is its actual filename.
-Security Note
+
+Security Note:
 This project was configured for local development and is not presented as production-ready. The local certificate and its private key should not be published. Do not commit .p12 keystores, passwords, or other secrets. The dependency findings also require further remediation before production deployment.
